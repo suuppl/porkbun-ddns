@@ -5,8 +5,8 @@ on:
   # triggers on push or pull request events on main branch
   push:
     branches: [ main ]
-  schedule:
-    - cron: "20 0 1 * *"
+  workflow_dispatch:
+    
 
 jobs:
   # build-for-ghcr:
