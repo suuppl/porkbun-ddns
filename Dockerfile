@@ -6,9 +6,9 @@ LABEL org.opencontainers.image.url="https://github.com/suuppl/porkbun-ddns/blob/
 LABEL org.opencontainers.image.licenses=MIT
 
 # default env variables
-ENV FREQUENCY 5
-ENV RECORD_TYPE A
-ENV ENDPOINT "https://api.porkbun.com/api/json/v3"
+ENV FREQUENCY=5
+ENV RECORD_TYPE=A
+ENV ENDPOINT="https://api.porkbun.com/api/json/v3"
 
 # install dependencies
 RUN apk update && apk add --no-cache tzdata curl bind-tools jq
