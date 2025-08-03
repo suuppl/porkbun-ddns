@@ -1,4 +1,4 @@
-name: Publish Porkbun-DDNS Docker Image to Docker Hub and GHCR
+name: Publish Porkbun-DDNS Docker Image to Docker Hub
 
 # Controls when the action will be run
 on:
